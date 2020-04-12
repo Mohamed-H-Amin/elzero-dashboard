@@ -1,0 +1,32 @@
+root
+-dist (that is compresed version)
+-stage (programming stage)
+--css
+---libs
+---sass
+----components(form,buttoms,list)
+----helpers
+----layout(header.scss,footer.scss,sidebare.scss)
+----themes
+----pages
+----variables
+---main.scss
+--html
+---pug
+----components
+----layout
+---dashboard.pug
+--js
+===================
+npm i gulp@3.9.1 -g (stable version install global).
+
+npm init (this comman is usefull if you take your progect to another pc , us npm i , to install all needed packages).
+
+npm i gulp@3.9.1 --save-dev(install local, dev=developing area).
+
+touch gulpfile.js (create file that will contain our tasks).
+
+npm i gulp-concat gulp-sass gulp-autoprefixer gulp-pug gulp-livereload gulp-notify gulp-sourcemaps gulp-minify --save-dev (install 8 usefull backages)
+
+npm i static-server (create static server to auto hot reload)
+

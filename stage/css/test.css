@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+.page {
+  min-height: 100vh;
+}
+.page .content-area {
+  width: calc(100% - 250px);
+  min-height: 100%;
+  transition: 0.3s;
+  float: right;
+  will-change: width;
+}
+
+.page .side-bar {
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  padding: 15px;
+  background-color: #74b9ff;
+  transition: 0.3s;
+}
+
+/*# sourceMappingURL=test.css.map */
